@@ -3,7 +3,7 @@ const app = express();
 
 app.set('view engine', 'ejs');
 
-const URL = process.env.BACKEND_URL || "http:/express-frontend:5000/api";
+const URL = process.env.BACKEND_URL || "http:/flask-backend:5000/api";
 
 app.get('/', async function(req, res) {
     try {
