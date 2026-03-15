@@ -23,6 +23,10 @@ spec:
               cpu: "400m"
           ports:
             - containerPort: 3000
+          -env:
+          env:
+           - name: BACKEND_URL
+             value: http://flask-backend:5000/api
 
 ---
 apiVersion: v1
