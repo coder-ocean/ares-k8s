@@ -1,1 +1,6 @@
-Ares app to fetch the names from a names.txt file deployed through K8s.
+This project demonstrates how to deploy and manage a containerized application using Kubernetes.
+
+Key features:
+- Deployment using Kubernetes manifests
+- Service configuration for exposing applications
+- Basic orchestration and cluster interaction
